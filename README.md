@@ -1,7 +1,7 @@
 # KODECAMP 5.0 NODE.JS BEGINNER TRACK
 This is a REST API project for an e-commerce app that:
 + Provides two POST endpoints; for registering and logging in users. 
-+ Provides a single GET enpoint that is accesible by anyone logged in and returns all the products in the app
++ Provides a single GET enpoint that is protected but accesible by anyone logged in and returns all the products in the app
 + Provides two POST endpoints that are protected and only admins are authorized to make requests.
 
 ## Tech Stack
