@@ -38,10 +38,7 @@ SALT = your-salt
 JWT_KEY = your-secret-key
 ```
 
-> Replace `your-db-url` with your specified db url
-> Replace `your-port` with your specified port
-> Replace `your-salt` with your specified salt
-> Replace `your-secret-key` with your specified secret key
+> Replace `your-db-url` with your specified db url, `your-port` with your specified port, `your-salt` with your specified salt and `your-secret-key` with your specified secret key
 
 6. Start the server
 
