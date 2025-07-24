@@ -5,10 +5,7 @@ const getAllProducts = async (req, res) => {
   try {
     const allProducts = await productModel.find()
 
-    const { role } = req.user
-    if (role === "admin" || "customer") {
-      res.status(200).json(allProducts)
-    }
+    res.status(200).json(allProducts)
   } catch (error) {
     res.status(500).send(error.message)
   }
