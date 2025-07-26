@@ -13,6 +13,10 @@ app.use(express.json())
 app.use("/auth", usersRoutes)
 app.use("/products", productsRoutes)
 
+app.get("/", (req, res) => {
+  res.json({message: "Deployment successful"})
+})
+
 app.listen(PORT, () => {
   console.log(`[server]: App listening on port: ${PORT}`)
   dbConnect()
