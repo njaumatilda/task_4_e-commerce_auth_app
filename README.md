@@ -7,6 +7,7 @@ This is a REST API project for an e-commerce app that:
 ## Tech Stack
 + Node.js
 + Express.js 
++ MongoDB Atlas
 
 ## Local setup instructions
 1. Clone the repository
